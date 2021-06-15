@@ -35,7 +35,7 @@ if you are using wsHttpBinding and using sessions, then only 10 concurrent sessi
 Too low for popular applications nowadays.  
 I will highlight the most common settings that you should always change:  
   
-more info: [link](https://weblogs.asp.net/paolopia/wcf-configuration-default-limits-concurrency-and-scalability)  
+more info: [link](/WCF_Limitation.md)  
 
 ```c#
 <serviceBehaviors>
