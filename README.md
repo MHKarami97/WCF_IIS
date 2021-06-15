@@ -128,7 +128,7 @@ I/O requests can be file read/write, database operations, web service calls, HTT
 So, you can set this to 100 if your server has enough system resource to do more of these I/O requests.  
 Especially when your Web application downloads/uploads data, it calls many external webservices in parallel.  
   
-minWorkerThreads : When a number of free ASP.NET worker threads fall below this number,  
+- `minWorkerThreads` : When a number of free ASP.NET worker threads fall below this number,  
 ASP.NET starts putting incoming requests into a queue.  
 So, you can set this value to a low number in order to increase the number of concurrent requests.  
 However, do not set this to a very low number because Web application code might need to do some background processing and parallel processing for which it will need some free worker threads.  
@@ -152,7 +152,6 @@ The dynamic content compression will affect output from aspx and WCF services.
 If you find the Enable Dynamic Content Compression option disabled,  
 then you need to go to “Add or Remote Features” from Windows start menu and then enable the IIS Dynamic Compression from IIS features.  
 You might have to enable the compression first at server level and then at site level.  
-
 
 # Monitor Your Server for Performance Issues
 You can use the Windows Performance Monitor to monitor some key performance counters in order to identify performance bottlenecks.  
