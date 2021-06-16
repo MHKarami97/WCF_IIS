@@ -12,7 +12,7 @@
 
 | Element | Description |
 | --- | --- |
-| [`headerlimits`](headerlimits/index.md) | Optional element.<br><br>Specifies size limits for HTML headers. |
+| `headerlimits` | Optional element.<br><br>Specifies size limits for HTML headers. |
 
 ### Configuration Sample
 
