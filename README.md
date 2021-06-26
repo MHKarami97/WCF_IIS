@@ -156,3 +156,8 @@ You might have to enable the compression first at server level and then at site 
 # Monitor Your Server for Performance Issues
 You can use the Windows Performance Monitor to monitor some key performance counters in order to identify performance bottlenecks.  
 For example, the following counters should be monitored for ASP.NET web application hosting WCF services.  
+
+# More info
+[https://docs.microsoft.com/en-us/biztalk/technical-guides/optimizing-wcf-web-service-performance](optimizing wcf web service performance)  
+
+[https://docs.microsoft.com/en-us/biztalk/technical-guides/optimizing-iis-performance](optimizing iis performance)
